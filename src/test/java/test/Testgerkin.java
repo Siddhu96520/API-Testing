@@ -4,8 +4,8 @@ import static io.restassured.RestAssured.*;
 
 public class Testgerkin {
 	
-	static String Username="siddeswara";
-	static String Password="0valEdge!1992";
+	static String Username="";
+	static String Password="";
 	
 	public static void main(String[] args) {
 		System.out.println("hello world api");
