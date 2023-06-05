@@ -8,9 +8,9 @@ import org.testng.annotations.Test;
 
 public class ConnectionsApi {
 	
-	static String Username="siddeswara";
-	static String Password="0valEdge!1992";
-	String baseURI = "https://qa2.ovaledge.net";
+	static String Username="";
+	static String Password="";
+	String baseURI = ";
 	
 	String authString = Username + ":" + Password;
 	String authCred = new String(Base64.getEncoder().encode(authString.getBytes()));
